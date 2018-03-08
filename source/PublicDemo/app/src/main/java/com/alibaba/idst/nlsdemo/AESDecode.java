@@ -20,6 +20,8 @@ import sun.misc.BASE64Encoder;
 
 @SuppressWarnings("restriction")
 public class AESDecode {
+
+
     /*
      * 计算MD5+BASE64
      */
