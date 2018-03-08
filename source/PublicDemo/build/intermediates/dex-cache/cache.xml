@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\Desktop\PublicDemo\app\libs\NlsClientSdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ed25fc625e65e7466edd0d6025ddafb3b3bcbde0">
+        <dex dex="C:\Users\Administrator\Desktop\PublicDemo\app\build\intermediates\pre-dexed\debug\NlsClientSdk_6be7f4470e2b517742abc2f218850996cc7ddde6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\Desktop\PublicDemo\app\libs\BASE64Encoder.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e240ccd923068f44141c9091e38b8f442c0dce5a">
+        <dex dex="C:\Users\Administrator\Desktop\PublicDemo\app\build\intermediates\pre-dexed\debug\BASE64Encoder_6687c00515e443551fcf2096e43a29afc175094d.jar" />
+    </item>
+
+</items>
