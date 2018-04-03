@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 23
     buildToolsVersion '27.0.3'
 
 
 
     defaultConfig {
         applicationId "com.alibaba.idst.nlsdemo"
-        minSdkVersion 15
+        minSdkVersion 23
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -36,4 +36,6 @@ dependencies {
     compile 'com.alibaba:fastjson:1.1.52.android'
     compile files('libs/BASE64Encoder.jar')
     compile 'com.squareup.okhttp3:okhttp:3.3.1'
+    compile 'com.android.support:support-v4:23.0.0'
+
 }

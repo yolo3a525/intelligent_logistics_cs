@@ -2,22 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\PublicDemo\app\libs\NlsClientSdk.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\libs\NlsClientSdk.jar"
+        jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="ed25fc625e65e7466edd0d6025ddafb3b3bcbde0">
-        <dex dex="C:\Users\Administrator\Desktop\PublicDemo\app\build\intermediates\pre-dexed\debug\NlsClientSdk_6be7f4470e2b517742abc2f218850996cc7ddde6.jar" />
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\NlsClientSdk_d218720909237cc883d32829950cb1ffa1cac62f\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\Administrator\Desktop\PublicDemo\app\libs\BASE64Encoder.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="C:\Users\whs\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.0\support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.0.0_f7a895571ff77bd5de1a106ffa68f2d76120d1d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\libs\fastjson-1.1.52.android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6fcd2df42d3576368514855c72baabe3b6e318e0">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.52.android_f3c05652f5ddd35a6372c6c0c415a3f1ca211b5b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2ff2e2b6d969282105cae12d4e2ea025ddef8c0a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\libs\BASE64Encoder.jar"
+        jumboMode="true"
         optimize="true"
         revision="27.0.3"
         sha1="e240ccd923068f44141c9091e38b8f442c0dce5a">
-        <dex dex="C:\Users\Administrator\Desktop\PublicDemo\app\build\intermediates\pre-dexed\debug\BASE64Encoder_6687c00515e443551fcf2096e43a29afc175094d.jar" />
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\2\BASE64Encoder_864b6c18c320fa7fd7dde0c72961539bedf1c644\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="da5d2ca7378adc716b725faa1801168a233955f8">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_563deef880d1a63b85bd9ceb8f7fa263ec60d8f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\whs\.android\build-cache\937c8654fe3633464197a482395d0fdd5f4b68c2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_51b704d8be4e51ebefd4f2d3654128a21f0299da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\whs\.android\build-cache\937c8654fe3633464197a482395d0fdd5f4b68c2\output\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="D:\work\app2\intelligent_logistics_cs\source\PublicDemo\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_7e249c0739a2ede2da3d33073ba5cc22eb5ff183\classes.dex" />
     </item>
 
 </items>

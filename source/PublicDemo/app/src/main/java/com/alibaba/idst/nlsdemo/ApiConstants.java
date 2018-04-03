@@ -10,7 +10,7 @@ public class ApiConstants {
      * 需要根据自己账号进行配置
      */
     public final static String Ali_Key = "goxvu6Jqj3I4TCAe";
-    public final static String Ali_Secret = "xxxxxxxxxxx";
+    public final static String Ali_Secret = "**************";
 
     /**
      * https://market.aliyun.com/products/56928004/cmapi023201.html?spm=5176.730005.0.0.2L4ktL#sku=yuncode1720100000

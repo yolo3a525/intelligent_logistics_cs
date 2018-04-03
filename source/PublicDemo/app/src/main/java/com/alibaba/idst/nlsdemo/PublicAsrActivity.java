@@ -2,8 +2,12 @@ package com.alibaba.idst.nlsdemo;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.pm.PackageManager;
+import android.media.AudioRecord;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -86,8 +90,17 @@ public class PublicAsrActivity extends Activity {
                 isRecognizing = true;
                 mResultEdit.setText("正在录音，请稍候！");
                 mNlsRequest.authorize(ApiConstants.Ali_Key, ApiConstants.Ali_Secret); //请替换为用户申请到的数加认证key和密钥
-                mNlsClient.start();
-                mStartButton.setText("录音中。。。");
+
+
+                if(ContextCompat.checkSelfPermission(PublicAsrActivity.this, android.Manifest.permission.RECORD_AUDIO)
+                        != PackageManager.PERMISSION_GRANTED){
+                    ActivityCompat.requestPermissions(PublicAsrActivity.this,new String[]{
+                            android.Manifest.permission.RECORD_AUDIO},1);
+                }else {
+                    mNlsClient.start();
+                    mStartButton.setText("录音中。。。");
+                }
+
             }
         });
     }
